@@ -36,10 +36,10 @@ The project follows a modular architecture typical of modern static web applicat
 - **Assets**: Centralized organization for imagery, typography, and stylesheets (CSS).
 
 <p align="center">
-  <img width="24%" alt="Home Page" src="Website/assets/visual-documentation/p1.png" />
-  <img width="24%" alt="Fashion Trends" src="Website/assets/visual-documentation/p2.png" />
-  <img width="24%" alt="Style Guide" src="Website/assets/visual-documentation/p3.png" />
-  <img width="24%" alt="Contact Milan" src="Website/assets/visual-documentation/p4.png" />
+  <img width="24%" alt="Home Page" src="assets/visual-documentation/p1.png" />
+  <img width="24%" alt="Fashion Trends" src="assets/visual-documentation/p2.png" />
+  <img width="24%" alt="Style Guide" src="assets/visual-documentation/p3.png" />
+  <img width="24%" alt="Contact Milan" src="assets/visual-documentation/p4.png" />
 </p>
 
 ---
