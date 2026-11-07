@@ -38,7 +38,7 @@ The project follows a modular architecture typical of modern static web applicat
 <p align="center">
   <img width="24%" alt="Home Page" src="assets/visual-documentation/p1.png" />
   <img width="24%" alt="Fashion Trends" src="assets/visual-documentation/p2.png" />
-  <img width="24%" alt="Style Guide" src="assets/visual-documentation/p3.png" />
+  <img width="24%" alt="Style Guide" src="assets/visual-documentation/p33.png" />
   <img width="24%" alt="Contact Milan" src="assets/visual-documentation/p4.png" />
 </p>
 
