@@ -1,0 +1,172 @@
+:root {
+    --primary-dark: #3B3B3B;
+    --soft-pink: #ECCACB;
+    --light-bg: #FCFAFA;
+    --card-bg: #ECECEC;
+    --text-color: #232323;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--text-color);
+    background-color: var(--light-bg);
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: #fff;
+    padding: 1.2rem 0;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.03);
+    border-bottom: 1px solid var(--card-bg);
+}
+
+.navbar-brand span {
+    letter-spacing: 1.5px;
+    font-weight: 700;
+}
+
+.nav-link {
+    font-weight: 600;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: var(--soft-pink) !important;
+}
+
+.btn-dark {
+    background-color: var(--primary-dark);
+    border-color: var(--primary-dark);
+    border-radius: 0;
+    transition: all 0.3s ease;
+}
+
+.btn-dark:hover {
+    background-color: #000;
+    border-color: #000;
+}
+
+.icon-roz {
+    color: var(--soft-pink);
+    transition: color 0.3s ease;
+}
+
+.icon-roz:hover {
+    color: #d67595;
+}
+
+.card {
+    border-radius: 0;
+    background-color: #fff;
+    border: 1px solid var(--card-bg) !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+.bg-dark, footer {
+    background-color: var(--primary-dark) !important;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    transition: color 0.3s ease;
+}
+
+.share-section {
+    background: linear-gradient(135deg, #f9f8f8 0%, #ECECEC 100%);
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    animation: fadeInShare 1.2s ease-in-out;
+}
+
+.share-icon-box {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    color: #3B3B3B;
+    border: 1px solid #dcdcdc;
+    border-radius: 50%;
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+}
+
+.share-icon-box:hover {
+    background-color: #3B3B3B;
+    color: #fff;
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 10px 20px rgba(59, 59, 59, 0.15);
+    border-color: #3B3B3B;
+}
+
+@keyframes fadeInShare {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.quote-custom-box {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-left: 4px solid #ded8d8;
+    border-radius: 0;
+    padding: 2.5rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+    position: relative;
+    transition: all 0.4s ease;
+}
+
+.quote-custom-box:hover {
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.06);
+    transform: translateY(-3px);
+}
+
+.quote-custom-box::before {
+    content: "“";
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 5rem;
+    color: #ECECEC;
+    font-family: serif;
+    line-height: 1;
+    z-index: 0;
+}
+
+.quote-custom-box * {
+    position: relative;
+    z-index: 1;
+}
+
+.contact-section-gradient {
+    background: linear-gradient(135deg, #ffffff 0%, #f7ecef 100%) !important;
+    border-top: 1px solid var(--card-bg);
+    border-bottom: 1px solid var(--card-bg);
+}
+
+.style-card-hover {
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1) !important;
+}
+
+.style-card-hover:hover {
+    transform: translateY(-6px) !important;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08) !important;
+    border-color: #dcdcdc !important;
+}
