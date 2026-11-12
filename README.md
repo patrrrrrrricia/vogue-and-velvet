@@ -11,9 +11,9 @@ A sophisticated digital ecosystem dedicated to the fashion world, designed to ha
 - **Social Integration:** FontAwesome Icons
 - **Design:** Responsive Web Design (RWD)
 
-![HTML5](https://img.shields.io/badge/HTML5-%23333333.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-%23333333.svg?style=for-the-badge&logo=css3&logoColor=white) ![Bootstrap](https://img.shields.io/badge/Bootstrap-%23333333.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-3B3B3B.svg?style=for-the-badge&logo=html5&logoColor=FCFAFA) ![CSS3](https://img.shields.io/badge/CSS3-3B3B3B.svg?style=for-the-badge&logo=css3&logoColor=FCFAFA) ![Bootstrap](https://img.shields.io/badge/Bootstrap-3B3B3B.svg?style=for-the-badge&logo=bootstrap&logoColor=FCFAFA)
 
-![Google Maps](https://img.shields.io/badge/Google_Maps-%23FF69B4.svg?style=for-the-badge&logo=google-maps&logoColor=white) ![UI/UX](https://img.shields.io/badge/Design-Responsive-%23FF69B4.svg?style=for-the-badge)
+![Google Maps](https://img.shields.io/badge/Google_Maps-ECCACB.svg?style=for-the-badge&logo=google-maps&logoColor=3B3B3B) ![UI/UX](https://img.shields.io/badge/Design-Responsive-ECCACB.svg?style=for-the-badge&logoColor=3B3B3B)
 
 ---
 
